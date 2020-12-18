@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  background-color: palegoldenrod;
+  font-family: 'amienne';
+}
+
+/* $$$-----------------------------------------_FONT_-----------------------------------------$$$ */
+@font-face {
+  font-family: 'amienne';
+  src: url('../fonts/Amienne\ Regular.ttf');
+}
+
+.amienne {
+  font-family: amienne;
+}
+/* $$$-----------------------------------------_/FONT_-----------------------------------------$$$ */
+
+/* $$$-----------------------------------------_FONT SIZE_-----------------------------------------$$$ */
+.f-s-1 {
+  font-size: 1em;
+}
+.f-s-2 {
+  font-size: 2em;
+}
+.f-s-3 {
+  font-size: 3em;
+}
+
+.f-s-4 {
+  font-size: 4em;
+}
+
+.f-s-5 {
+  font-size: 5em;
+}
+
+/* $$$-----------------------------------------_/FONT SIZE_-----------------------------------------$$$ */
+
+/* $$$-----------------------------------------_NAV_-----------------------------------------$$$ */
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Links inside the navbar */
+.navbar button {
+  font-size: large;
+  font-weight: 600;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #0d6efd;
+  border-radius: 10px;
+  min-width: 15%;
+}
+
+/* Change background on mouse-over */
+.navbar button:hover {
+  background: rgb(60, 255, 0);
+  color: black;
+}
+
+/* $$$-----------------------------------------_/NAV_-----------------------------------------$$$ */
+
+/* $$$-----------------------------------------_MAIN_-----------------------------------------$$$ */
+
+main {
+  margin-top: 80px; /* Add a top margin to avoid content overlay */
+
+  /* background-color: cadetblue; */
+}
+
+#imgDiv {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+#banniere {
+  width: 80%;
+  height: 100%;
+}
+
+/* %%----------------------_IMAGE SIZE ETC_--------------------%% */
+
+.contain {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+}
+
+img {
+  width: 15vw;
+  height: 14vh;
+  /* border: 1px solid #000; */
+}
+
+.fit-contain {
+  object-fit: contain;
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+/* %%----------------------_IMAGE SIZE ETC_--------------------%% */
+
+/* LEGUMES */
+.legumesCss {
+  /* border: dotted 3px #0d6efd; */
+}
+
+/* FRUITS */
+.fruitsCss {
+  /* border: dotted 3px #0dfdad; */
+}
+
+/* CONFITURES */
+.confituresCss {
+  /* border: dotted 3px #43c41c; */
+}
+
+/* BOISSONS */
+.boissonsCss {
+  /* border: dotted 3px #ebdc0c; */
+}
+
+#legumesDiv {
+  display: '';
+}
+
+#fruitsDiv {
+  display: '';
+}
+
+#confituresDiv {
+  display: '';
+}
+
+#boissonsDiv {
+  display: '';
+}
+
+/* $$$-----------------------------------------_/MAIN_-----------------------------------------$$$ */
+.center {
+  text-align: center;
+}
